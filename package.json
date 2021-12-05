@@ -1,0 +1,27 @@
+{
+  "name": "json-hai-server",
+  "version": "1.0.0",
+  "description": "JSON server using hai-server module.",
+  "main": "db.json",
+  "scripts": {
+    "start": "hai-server --watch db.json --auth auth.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjayGoraniya/json-hai-server.git"
+  },
+  "keywords": [
+    "JSON",
+    "NodeJS",
+    "hai-server"
+  ],
+  "author": "Sanjay Goraniya <sgoraniya22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SanjayGoraniya/json-hai-server/issues"
+  },
+  "homepage": "https://github.com/SanjayGoraniya/json-hai-server#readme",
+  "dependencies": {
+    "hai-server": "0.0.4"
+  }
+}
